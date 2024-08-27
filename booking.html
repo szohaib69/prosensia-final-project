@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">
+            <a href="home.html"><img class="logo-img" src="images/logo.png" alt="Web Logo"></a>
+        </h1>
+        <ul class="menu-container">
+            <a href="home.html"><li class="menu-item">Home</li></a>
+            <a href="merc.html"><li class="menu-item">Mercedes Collections</li></a>
+            <a href="bmw.html"><li class="menu-item">BMW Collection</li></a>
+        </ul>
+    </header>
+    <div class="container">
+        <h1 class="form-title">
+            Booking
+        </h1>
+        <form action="#">
+            <div class="customer-info">
+                <div class="input-box">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" 
+                            id="fullName"
+                            name="fullName"
+                            placeholder="Enter Your Name"/>
+                </div>
+                <div class="input-box">
+                    <label for="address">Address</label>
+                    <input type="text" 
+                            id="address"
+                            name="address"
+                            placeholder="Enter Your Address"/>
+                </div>
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input type="text" 
+                            id="email"
+                            name="email"
+                            placeholder="Enter Your Email"/>
+                </div>
+                <div class="input-box">
+                    <label for="phoneNo">Phone Number</label>
+                    <input type="text" 
+                            id="phoneNo"
+                            name="phoneNo"
+                            placeholder="Enter Your Phone Number"/>
+                </div>
+                <div class="input-box">
+                    <label for="productName">Product Name</label>
+                    <input type="text" 
+                            id="productName"
+                            name="productName"
+                            placeholder="Enter Product Name"/>
+                </div>
+                <h3 class="total">Total Amount: PKR 15,380,000</h3>
+            </div>
+            <div class="form-submit">
+                <input type="submit" value="Book It">
+               <p>Note: Your booking will be confirmed after you pay the inital 25% of the total amount at the dealership.</p> 
+            </div>
+        </form>
+    </div>
+</body>
+</html>
